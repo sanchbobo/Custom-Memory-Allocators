@@ -34,6 +34,6 @@ To build the project using command line:
 2. Run the following commands:
    ```bash
    g++ -std=c++20 -Iinclude src/Allocator.cpp src/LinearAllocator.cpp src/main.cpp -o custom_allocator
-   cd build
-   cmake ..
-   make
+   g++ -std=c++20 -Iinclude src/Allocator.cpp src/FreeListAllocator.cpp src/main.cpp -o custom_allocator
+
+   
