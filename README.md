@@ -29,11 +29,11 @@ This project provides a custom memory allocator for C++ applications. It include
 - CMake (optional for building the project using the provided `CMakeLists.txt`)
 
 ### Building the Project
-To build the project using CMake:
+To build the project using command line:
 1. Navigate to the root directory of the project.
 2. Run the following commands:
    ```bash
-   mkdir build
+   g++ -std=c++20 -Iinclude src/Allocator.cpp src/LinearAllocator.cpp src/main.cpp -o custom_allocator
    cd build
    cmake ..
    make
