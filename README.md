@@ -19,8 +19,6 @@ This project provides a custom memory allocator for C++ applications. It include
   - LinearAllocator.cpp
   - FreeListAllocator.cpp
   - main.cpp
-- /docs - Documentation for the project.
-- /tests - Unit tests for the allocator implementations.
 
 ## Getting Started
 
